@@ -28,4 +28,37 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
+
+
+
+
+// Blade views
+Route::view('/', 'welcome')->name('home');
+Route::view('/404', '404')->name('404');
+Route::view('/about', 'about')->name('about');
+Route::view('/amenities', 'amenities')->name('amenities');
+Route::view('/contact', 'contact')->name('contact');
+Route::view('/dashboard', 'dashboard')->name('dashboard');
+Route::view('/facilities', 'facilities')->name('facilities');
+Route::view('/faq', 'faq')->name('faq');
+Route::view('/footer', 'footer')->name('footer');
+Route::view('/gallery-image', 'gallery-image')->name('gallery-image');
+Route::view('/header', 'header')->name('header');
+
+// Static HTML files
+Route::get('/pricing', function () {
+    return view('pricing');
+})->name('pricing');
+
+Route::get('/room-details', function () {
+    return view('room-details1');
+})->name('room-details');
+
+Route::get('/rooms', function () {
+    return view('rooms1');
+})->name('rooms');
+
+Route::get('/spa', function () {
+    return view('spa');
+})->name('spa');
