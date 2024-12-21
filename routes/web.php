@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\SubscriptionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,10 +57,19 @@ Route::get('/room-details', function () {
     return view('room-details1');
 })->name('room-details');
 
-Route::get('/rooms', function () {
-    return view('rooms1');
-})->name('rooms');
+Route::get('/theestate', function () {
+    return view('theestate');
+})->name('theestate');
 
-Route::get('/spa', function () {
-    return view('spa');
-})->name('spa');
+Route::get('/investment', function () {
+    return view('investment');
+})->name('investment');
+
+
+Route::fallback(function () {
+    return view('404');
+});
+
+// Route::post('/contact-form', [ContactFormController::class, 'store']);
+Route::post('/contact-form', [ContactFormController::class, 'store'])->name('contact.submit');
+Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe.submit');

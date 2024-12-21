@@ -16,27 +16,28 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
+                    <a class="nav-link" href="/about"><i class="fa fa-info-circle"></i> About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/The Estate.html">The Estate</a>
+                    <a class="nav-link" href="/theestate"><i class="fa fa-building"></i> The Estate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/amenities">Amenities</a>
+                    <a class="nav-link" href="/amenities"><i class="fa fa-cogs"></i> Amenities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Why Invest.html">Why Invest</a>
+                    <a class="nav-link" href="/investment"><i class="fa fa-dollar-sign"></i> Why Invest</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/gallery-image">Gallery</a>
+                    <a class="nav-link" href="/gallery-image"><i class="fa fa-image"></i> Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="/contact"><i class="fa fa-envelope"></i> Contact</a>
                 </li>
             </ul>
+
             <div class="navbar-right">
                 <div class="phonex">
                     <a href="tel:+254 705818181"><i class="fa-solid fa-phone"></i> +254 705818181</a>
