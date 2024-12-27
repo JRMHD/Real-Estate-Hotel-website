@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\InquiryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -73,3 +74,5 @@ Route::fallback(function () {
 // Route::post('/contact-form', [ContactFormController::class, 'store']);
 Route::post('/contact-form', [ContactFormController::class, 'store'])->name('contact.submit');
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe.submit');
+Route::post('/site-visit-inquiry', [InquiryController::class, 'store'])->name('site.visit.inquiry.submit');
+

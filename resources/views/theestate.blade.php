@@ -177,176 +177,107 @@
             </div>
         </div>
     </section>
-    <!-- Rooms 1 -->
+
     <!-- Land for Sale -->
     <section class="rooms1 section-padding">
         <div class="container">
-            <div class="row">
-                <!-- Plot A49 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A149.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$450,000.00</div>
-                                <h3><a href="/contact">Plot A49</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot A50 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A50.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$450,000.00</div>
-                                <h3><a href="/contact">Plot A50</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot A51 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A51.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$400,000.00</div>
-                                <h3><a href="/contact">Plot A51</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot A53 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A53.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$345,000.00</div>
-                                <h3><a href="/contact">Plot A53</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot A54 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A54.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$340,000.00</div>
-                                <h3><a href="/contact">Plot A54</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot A143 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\A143.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$350,000.00</div>
-                                <h3><a href="/contact">Plot A143</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot D23 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\d23.jpg" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$211,000.00</div>
-                                <h3><a href="/contact">Plot D23</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot D26 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\D26-min.png" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$167,000.00</div>
-                                <h3><a href="/contact">Plot D26</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot D27 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\D27.png" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$170,000.00</div>
-                                <h3><a href="/contact">Plot D27</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plot D28 -->
-                <div class="col-lg-6 col-md-12 mb-30">
-                    <div class="item">
-                        <div class="img">
-                            <img src="\img\D28-min.png" alt="">
-                        </div>
-                        <div class="wrap">
-                            <div class="cont">
-                                <div class="price">$212,000.00</div>
-                                <h3><a href="/contact">Plot D28</a></h3>
-                            </div>
-                            <div class="arrow"> <a href="/contact"><span
-                                        class="fa-regular fa-arrow-right"></span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Additional plots can follow the same structure -->
+            <div class="row" id="plots-container">
+                <!-- Plot CH1 to CH20 -->
+                <!-- Dynamically loading plots -->
             </div>
+            <div class="row justify-content-center">
+                <button id="load-more" class="button-3">Load More</button>
+            </div>
+            <!-- Loader Spinner -->
+            <div id="loading-spinner" class="loader" style="display: none;"></div>
         </div>
     </section>
+
+    <style>
+        /* Spinner Styles */
+        .loader {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <script>
+        // Generate plot data
+        const plots = Array.from({
+            length: 45
+        }, (_, i) => ({
+            id: i + 1,
+            price: `$${(450000 - i * 1000).toLocaleString()}.00`, // Dynamic price decrement for variety
+            image: `/img/plotimages/ch${i + 1}.jpg`,
+            name: `Plot CH${i + 1}`
+        }));
+
+        const plotsContainer = document.getElementById('plots-container');
+        const loadMoreButton = document.getElementById('load-more');
+        const loadingSpinner = document.getElementById('loading-spinner');
+
+        let displayedPlots = 0;
+        const plotsPerLoad = 20;
+
+        function loadPlots() {
+            // Show the loading spinner
+            loadingSpinner.style.display = 'block';
+            loadMoreButton.style.display = 'none'; // Hide button temporarily
+
+            setTimeout(() => {
+                const end = Math.min(displayedPlots + plotsPerLoad, plots.length);
+                for (let i = displayedPlots; i < end; i++) {
+                    const plot = plots[i];
+                    const plotHTML = `
+                    <div class="col-lg-6 col-md-12 mb-30">
+                        <div class="item">
+                            <div class="img">
+                                <img src="${plot.image}" alt="${plot.name}">
+                            </div>
+                            <div class="wrap">
+                                <div class="cont">
+                                    <div class="price">${plot.price}</div>
+                                    <h3><a href="/contact">${plot.name}</a></h3>
+                                </div>
+                                <div class="arrow"> 
+                                    <a href="/contact"><span class="fa-regular fa-arrow-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`;
+                    plotsContainer.insertAdjacentHTML('beforeend', plotHTML);
+                }
+                displayedPlots = end;
+
+                // Hide the spinner and show the button again
+                loadingSpinner.style.display = 'none';
+                if (displayedPlots < plots.length) {
+                    loadMoreButton.style.display = 'block';
+                } else {
+                    loadMoreButton.style.display = 'none'; // Hide button when all plots are loaded
+                }
+            }, 1000); // Simulate a delay for loading
+        }
+
+        // Load initial plots and add event listener for "Load More" button
+        loadPlots();
+        loadMoreButton.addEventListener('click', loadPlots);
+    </script>
 
 
 
@@ -377,7 +308,7 @@
 
         </div>
     </section>
-
+    @include('bookingform')
     <!-- Footer -->
     @include('footer')
     <!-- jQuery -->

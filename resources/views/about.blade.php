@@ -128,7 +128,7 @@
         <div class="video-text">Explore Ciala</div>
     </section>
 
-
+    @include('bookingform')
 
     <!-- Footer -->
     @include('footer')

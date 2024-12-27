@@ -1,235 +1,208 @@
-<!DOCTYPE html>
-<html lang="zxx">
+<section class="faqs section-padding">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-12 mb-30">
+                <div class="section-subtitle">Popular Questions</div>
+                <div class="section-title">Frequently Asked Questions</div>
+                <p class="mb-25">At Ciala Residences, we are dedicated to providing an exceptional living experience.
+                    Below are some frequently asked questions to help you understand our resort-based real estate
+                    development.</p>
+                <a href="#" class="button-3">All Questions</a>
+            </div>
+            <div class="col-lg-6 offset-lg-1 col-md-12">
+                <ul class="accordion-box clearfix">
+                    <!-- Question 1 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What is a resort-based real estate development?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>A resort-based real estate development integrates residential properties within or
+                                    adjacent to a resort, offering property owners access to resort amenities such as
+                                    swimming pools, gyms, nature trails, and dining facilities, creating a luxurious
+                                    lifestyle experience.</p>
+                            </div>
+                        </div>
+                    </li>
 
+                    <!-- Question 2 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What are the benefits of investing in resort real estate?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Resort real estate offers a blend of luxury living and investment potential. Benefits
+                                    include access to world-class amenities, a serene environment, potential rental
+                                    income, and long-term property appreciation.</p>
+                            </div>
+                        </div>
+                    </li>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Rixos - Luxury Hotel Template</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Gilda+Display&amp;family=Urbanist:wght@300;400;500;600&amp;display=swap">
-    <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style.css" />
-</head>
+                    <!-- Question 3 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Who manages the development?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>The estate is typically managed by a professional team or a homeowners’ association
+                                    (HOA) to ensure that the property maintains its quality, security, and appeal.</p>
+                            </div>
+                        </div>
+                    </li>
 
-<body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="centered">
-            <div class="cont">
-                <div class="loader-circle"></div>
-                <div class="loader-line-mask">
-                    <div class="loader-line"></div>
-                </div> <img src="img/preloader.png" alt="">
+                    <!-- Question 4 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What type of ownership is offered?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Most resort real estate developments offer freehold or leasehold ownership, depending
+                                    on the country’s laws. Check the specific ownership terms before purchase.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 5 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Are there restrictions on the type of homes I can build?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Yes, resort-based developments often have architectural guidelines to ensure a
+                                    cohesive look and feel within the community, preserving its aesthetic and value.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 6 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Are there ongoing fees?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Yes, property owners typically pay service charges or maintenance fees to cover the
+                                    cost of maintaining the estate’s common areas and resort amenities.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 7 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What amenities are included?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Residents usually have access to resort facilities such as pools, gyms, nature walks,
+                                    conferencing services, restaurants, and sometimes exclusive recreational areas.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 8 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Are the amenities shared with resort guests?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>In many developments, amenities are shared between residents and resort guests,
+                                    though some communities may offer private facilities for homeowners.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 9 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Can I use my property as a vacation rental?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Many resort developments allow homeowners to rent out their properties, often through
+                                    the resort’s rental program, providing an additional income stream.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 10 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Is investing in resort real estate a good financial decision?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Resort properties often offer attractive returns due to their location, demand for
+                                    luxury living, and rental income potential. Conduct market research or consult a
+                                    real estate expert before investing.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 11 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Are financing options available?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Yes, financing options such as mortgages or developer payment plans may be available.
+                                    Check with the developer or local financial institutions for specific terms.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 12 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What are the expected returns on investment?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>ROI depends on factors like location, property type, and demand. Resort properties in
+                                    prime locations typically appreciate faster and generate higher rental income.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 13 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What type of community can I expect?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Resort developments often foster a vibrant and exclusive community, attracting
+                                    like-minded individuals seeking luxury, tranquility, and convenience.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 14 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Can I live here full-time or is it just for vacations?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Most developments allow both full-time residency and vacation stays, giving you the
+                                    flexibility to make it your permanent home or a getaway retreat.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 15 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">Is the area secure?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Yes, resort real estate developments often have 24/7 security, gated access, and
+                                    other measures to ensure a safe and private environment for residents.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 16 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">What is the resale value of properties in resort developments?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Resort properties generally hold their value well due to their location and
+                                    amenities, making them a strong long-term investment.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Question 17 -->
+                    <li class="accordion block">
+                        <div class="acc-btn">How does the development impact the surrounding environment?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p>Most resort developments adhere to sustainable practices, including preserving
+                                    natural landscapes and minimizing ecological footprints.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <!-- Progress scroll totop -->
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-    <!-- Navbar -->
-    @include('header')
-    <!-- Header Banner -->
-    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/banner/19.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="subtitle">F.A.Qs</div>
-                    <div class="title">Hotel Questions</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FAQs -->
-    <section class="faqs section-padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-12 mb-30">
-                    <ul class="accordion-box clearfix">
-                        <li class="accordion block">
-                            <div class="acc-btn">How can I confirm that you have received my reservation?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">Up to what age are they considered children?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">Do you have any discount code?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">How can I get in touch with my hotel?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">On the last day, can I leave the room later?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">Can I cancel my reservation?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">Do you have hotels with a spa?</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien
-                                        fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center mt-30">
-                    <div class="section-info">
-                        <div class="tag">Questions</div>
-                        <div class="desc">You can send your questions to the mail address: <a
-                                href="mailto:info@hotel.com" class="text-decoration-line-bottom">info@hotel.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Booking Search -->
-    <section class="section-padding bg-img bg-fixed" data-overlay-dark="5" data-background="img/rooms/01.jpg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center mb-20">
-                    <div class="section-subtitle">Hotel Experience</div>
-                    <div class="section-title white">Booking Form</div>
-                </div>
-            </div>
-            <div class="booking-inner clearfix">
-                <form action="#" class="form1 clearfix">
-                    <div class="col1 c1">
-                        <div class="input1_wrapper border-l border-b border-t border-r">
-                            <label>Check in</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check in">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col1 c2">
-                        <div class="input1_wrapper border-l border-b border-t border-r">
-                            <label>Check out</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check out">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c3">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Adults</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Adult</option>
-                                    <option value="2">2 Adults</option>
-                                    <option value="3">3 Adults</option>
-                                    <option value="4">4 Adults</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c4">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Children</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">Children</option>
-                                    <option value="1">1 Child</option>
-                                    <option value="2">2 Children</option>
-                                    <option value="3">3 Children</option>
-                                    <option value="4">4 Children</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c5">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Rooms</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Room</option>
-                                    <option value="2">2 Rooms</option>
-                                    <option value="3">3 Rooms</option>
-                                    <option value="4">4 Rooms</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col3 c6">
-                        <button type="submit" class="btn-form1-submit">Check Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- Footer -->
-    @include('footer')
-    <!-- jQuery -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery-migrate-3.4.1.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
-    <script src="js/custom.js"></script>
-</body>
-
-
-</html>
+</section>

@@ -444,82 +444,8 @@
     </section>
 
     <!-- FAQs -->
-    <section class="faqs section-padding">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-12 mb-30">
-                    <div class="section-subtitle">Popular Questions</div>
-                    <div class="section-title">
-                        Frequently Asked Questions
-                    </div>
-                    <p class="mb-25">
-                        Find answers to some of the most common questions our guests have. If you don't find the answer
-                        you're looking for, feel free to reach out to us directly.
-                    </p>
-                    <a href="/contact" class="button-3">All Questions</a>
-                </div>
-                <div class="col-lg-6 offset-lg-1 col-md-12">
-                    <ul class="accordion-box clearfix">
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                Do you offer any discount codes or promotions?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>
-                                        Yes! We offer seasonal promotions and discount codes. Be sure to subscribe to
-                                        our newsletter or follow us on social media to get the latest offers.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                How can I get in touch with my hotel?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>
-                                        You can contact us by phone, email, or through our contact form on the website.
-                                        Our customer service team is available 24/7 to assist with any inquiries.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                Can I cancel or modify my reservation?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>
-                                        Yes, we have flexible cancellation policies. Depending on the rate type you
-                                        choose, you may cancel or modify your reservation up to 48 hours before
-                                        check-in.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                Do you have hotels with a spa or wellness services?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>
-                                        Yes, we offer luxurious spa services, including massages, facials, and wellness
-                                        treatments. You can book a spa appointment at the time of reservation or at the
-                                        hotel.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    @include('faq')
+    @include('bookingform')
 
     <!-- Footer -->
     @include('footer')

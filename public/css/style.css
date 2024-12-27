@@ -1163,13 +1163,13 @@ blockquote cite:before {
 }
 /* logo */
 .nav-scroll .logo-wrapper .logo-img {
-    width: 130px;
+    width: 90px;
     margin-bottom: 0px;
 }
 .nav-scroll .logo-wrapper {}
 .nav-scroll .logo-wrapper .logo h2 {
     display: block;
-    width: 100%;
+    width: 90%;
     color: #BD945A;
     position: relative;
     margin-bottom: 0;
@@ -1185,7 +1185,7 @@ blockquote cite:before {
     padding: 0;
 }
 .logo-wrapper .logo-img {
-    width: 130px;
+    width: 90px;
     text-align: center;
 }
 .logo-wrapper .logo h2 {
@@ -1400,7 +1400,7 @@ blockquote cite:before {
         background-color: transparent;
     }
     .nav-scroll .logo-img {
-        width: 130px;
+        width: 90px;
     }
     .navbar .logo {
         text-align: left;

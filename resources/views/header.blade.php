@@ -31,6 +31,10 @@
                     <a class="nav-link" href="/investment"><i class="fa fa-dollar-sign"></i> Why Invest</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="https://www.cialaresort.com/"><i class="fa fa-building"></i> Ciala
+                        Resort</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/gallery-image"><i class="fa fa-image"></i> Gallery</a>
                 </li>
                 <li class="nav-item">

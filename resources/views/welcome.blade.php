@@ -77,74 +77,6 @@
         </div>
     </aside>
     <!-- Booking Search -->
-    <div class="booking-wrapper">
-        <div class="container">
-            <div class="booking-inner clearfix">
-                <form action="https://www.cialaresort.com/" class="form1 clearfix">
-                    <div class="col1 c1">
-                        <div class="input1_wrapper border-l border-b border-t border-r br-5005">
-                            <label>Check in</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check in" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col1 c2">
-                        <div class="input1_wrapper border-l border-b border-t border-r">
-                            <label>Check out</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check out" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c3">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Adults</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Adult</option>
-                                    <option value="2">2 Adults</option>
-                                    <option value="3">3 Adults</option>
-                                    <option value="4">4 Adults</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c4">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Children</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">Children</option>
-                                    <option value="1">1 Child</option>
-                                    <option value="2">2 Children</option>
-                                    <option value="3">3 Children</option>
-                                    <option value="4">4 Children</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c5">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Rooms</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Room</option>
-                                    <option value="2">2 Rooms</option>
-                                    <option value="3">3 Rooms</option>
-                                    <option value="4">4 Rooms</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col3 c6">
-                        <button type="submit" class="btn-form1-submit">Check Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
 
     <!-- About -->
     <section class="about section-padding">
@@ -284,13 +216,11 @@
             <div class="container">
                 <ul class="tab-buttons">
                     <li data-tab="#restaurant" class="tab-btn active-btn">
-                        <span>Restaurant</span>
+                        <span>Fitness Center</span>
                     </li>
                     <li data-tab="#spa" class="tab-btn"><span>Spa & Wellness</span></li>
                     <li data-tab="#pool" class="tab-btn"><span>Swimming Pool</span></li>
-                    <li data-tab="#fitness" class="tab-btn">
-                        <span>Fitness Center</span>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -300,14 +230,14 @@
                 <div class="tab active-tab" id="restaurant">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-6 col-md-12">
-                            <img src="img/offers/05.jpg" class="img-fluid" alt="Restaurant" />
+                            <img src="img/offers/08.jpg" class="img-fluid" alt="Restaurant" />
                         </div>
                         <div class="col-lg-5 offset-lg-1 col-md-12">
-                            <div class="section-subtitle">Gastronomic Excellence</div>
-                            <div class="section-title">Restaurant</div>
+                            <div class="section-subtitle">Your Fitness Journey</div>
+                            <div class="section-title">Fitness Center</div>
                             <p class="mb-25">
-                                Indulge in an exquisite culinary experience at Ciala Residences. Our restaurant offers
-                                a blend of international and local cuisines, crafted to satisfy every palate.
+                                Stay active in our fully equipped fitness center. Whether you prefer cardio or weight
+                                training, our facilities are designed to cater to all fitness levels.
                             </p>
                             <ul class="list-unstyled list mb-30">
                                 <li>
@@ -315,7 +245,7 @@
                                         <span class="fa-regular fa-check"></span>
                                     </div>
                                     <div class="list-text">
-                                        <p>Breakfast: 7.00 am – 11.00 am (daily)</p>
+                                        <p>Cardiovascular equipment</p>
                                     </div>
                                 </li>
                                 <li>
@@ -323,20 +253,12 @@
                                         <span class="fa-regular fa-check"></span>
                                     </div>
                                     <div class="list-text">
-                                        <p>Lunch: 12.00 pm – 2.00 pm (daily)</p>
+                                        <p>Free weights and dumbbells</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="list-icon">
-                                        <span class="fa-regular fa-check"></span>
-                                    </div>
-                                    <div class="list-text">
-                                        <p>Dinner: 6.30 pm – 10.00 pm (daily)</p>
-                                    </div>
-                                </li>
+
                             </ul>
-                            <a href="https://www.cialaresort.com/dining/" class="button-3"><i
-                                    class="fa-solid fa-user-chef"></i> View Menu</a>
+
                         </div>
                     </div>
                 </div>
@@ -414,41 +336,7 @@
                     </div>
                 </div>
                 <!--tab 4-->
-                <div class="tab" id="fitness">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-lg-6 col-md-12">
-                            <img src="img/offers/08.jpg" class="img-fluid" alt="Fitness Center" />
-                        </div>
-                        <div class="col-lg-5 offset-lg-1 col-md-12">
-                            <div class="section-subtitle">Your Fitness Journey</div>
-                            <div class="section-title">Fitness Center</div>
-                            <p class="mb-25">
-                                Stay active in our fully equipped fitness center. Whether you prefer cardio or weight
-                                training, our facilities are designed to cater to all fitness levels.
-                            </p>
-                            <ul class="list-unstyled list mb-30">
-                                <li>
-                                    <div class="list-icon">
-                                        <span class="fa-regular fa-check"></span>
-                                    </div>
-                                    <div class="list-text">
-                                        <p>Cardiovascular equipment</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list-icon">
-                                        <span class="fa-regular fa-check"></span>
-                                    </div>
-                                    <div class="list-text">
-                                        <p>Free weights and dumbbells</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a href="https://www.cialaresort.com/health-club/the-oak-gym/" class="button-3"><i
-                                    class="fa-solid fa-dumbbell"></i> View Details</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -658,82 +546,7 @@
 
 
     <!-- Booking Search -->
-    <section class="section-padding bg-img bg-fixed" data-overlay-dark="5" data-background="img/rooms/01.jpg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center mb-20">
-                    <div class="section-subtitle">Ciala Residences</div>
-                    <div class="section-title white">Booking Form</div>
-                </div>
-            </div>
-            <div class="booking-inner clearfix">
-                <form action="https://www.cialaresort.com/" method="get" class="form1 clearfix">
-                    <div class="col1 c1">
-                        <div class="input1_wrapper border-l border-b border-t border-r">
-                            <label>Check In</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker"
-                                    placeholder="Select Check-In Date" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col1 c2">
-                        <div class="input1_wrapper border-l border-b border-t border-r">
-                            <label>Check Out</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker"
-                                    placeholder="Select Check-Out Date" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c3">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Adults</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Adult</option>
-                                    <option value="2">2 Adults</option>
-                                    <option value="3">3 Adults</option>
-                                    <option value="4">4 Adults</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c4">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Children</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="0">No Children</option>
-                                    <option value="1">1 Child</option>
-                                    <option value="2">2 Children</option>
-                                    <option value="3">3 Children</option>
-                                    <option value="4">4 Children</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c5">
-                        <div class="select1_wrapper border-l border-b border-t border-r">
-                            <label>Rooms</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Room</option>
-                                    <option value="2">2 Rooms</option>
-                                    <option value="3">3 Rooms</option>
-                                    <option value="4">4 Rooms</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col3 c6">
-                        <button type="submit" class="btn-form1-submit">Book Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
+    @include('bookingform')
     <!-- Footer -->
     @include('footer')
     <!-- jQuery -->
