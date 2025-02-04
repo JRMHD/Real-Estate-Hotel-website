@@ -99,6 +99,68 @@
         </div>
     </section>
 
+    <section class="partners section-padding bg-lightbrown">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-12 mb-30">
+                    <div class="section-subtitle">Our Associates</div>
+                    <div class="section-title">Our Partners</div>
+                    <p class="mb-25">
+                        We are proud to collaborate with industry leaders and innovators. Explore the organizations that
+                        contribute to the success and vision of our projects.
+                    </p>
+                    <a href="/img/ourpatner/ciala%20residence.pdf" download class="button-3">Download Brochure</a>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-6 mb-25">
+                            <div class="item">
+                                <div class="icon mb-10">
+                                    <img src="/img/ourpatner/ciala%20logo.png" alt="Ciala Resort Logo"
+                                        class="img-fluid">
+                                </div>
+                                <div class="text">
+                                    <h6>Ciala Resort</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-25">
+                            <div class="item">
+                                <div class="icon mb-10">
+                                    <img src="/img/ourpatner/LION%20CAB%20PROPERTY%20GROUP%20LOGO.png"
+                                        alt="Leo’s Realty Group Logo" class="img-fluid">
+                                </div>
+                                <div class="text">
+                                    <h6>Leo’s Realty Group</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-25">
+                            <div class="item">
+                                <div class="icon mb-10">
+                                    <img src="/img/ourpatner/mdworks.jpg" alt="MD Works Logo" class="img-fluid">
+                                </div>
+                                <div class="text">
+                                    <h6>MD Works</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-25">
+                            <div class="item">
+                                <div class="icon mb-10">
+                                    <img src="/img/ourpatner/Surge%20Engineering.png" alt="Surge Engineering Logo"
+                                        class="img-fluid">
+                                </div>
+                                <div class="text">
+                                    <h6>Surge Engineering</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Video -->
     <section class="video-wrapper section-padding bg-img" data-overlay-dark="4" data-background="img/banner/01.jpg">
@@ -132,6 +194,7 @@
 
     <!-- Footer -->
     @include('footer')
+    @include('whatsapp')
     <!-- jQuery -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-migrate-3.4.1.min.js"></script>

@@ -244,6 +244,7 @@
     @include('bookingform')
     <!-- Footer -->
     @include('footer')
+    @include('whatsapp')
     <!-- jQuery -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-migrate-3.4.1.min.js"></script>
