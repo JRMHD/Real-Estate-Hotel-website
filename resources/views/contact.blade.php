@@ -61,7 +61,7 @@
     <!-- Navbar -->
     @include('header')
     <!-- Header Banner -->
-    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/contact.jpg">
+    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="/img/render/4.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

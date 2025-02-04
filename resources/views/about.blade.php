@@ -61,7 +61,7 @@
     <!-- Navbar -->
     @include('header')
     <!-- Header Banner -->
-    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/banner/20.jpg">
+    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/render/6.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -90,10 +90,10 @@
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6 mb-20 mt-45">
-                    <img class="rounded-2 animation-float1" src="img/about01.jpg" alt="">
+                    <img class="rounded-2 animation-float1" src="img/render/6.jpg" alt="">
                 </div>
                 <div class="col-lg-3 col-md-6 mb-20">
-                    <img class="rounded-2 animation-float2" src="img/about02.jpg" alt="">
+                    <img class="rounded-2 animation-float2" src="img/render/7.jpg" alt="">
                 </div>
             </div>
         </div>

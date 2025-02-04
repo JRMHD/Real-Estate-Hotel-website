@@ -41,7 +41,7 @@
 
 <body>
     <!-- Preloader -->
-    {{-- <div class="preloader">
+    <div class="preloader">
         <div class="centered">
             <div class="cont">
                 <div class="loader-circle"></div>
@@ -51,7 +51,7 @@
                 <img src="img/preloader.png" alt="" />
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- Progress scroll totop -->
     <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -102,10 +102,10 @@
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6 mb-20 mt-45">
-                    <img class="rounded-2 animation-float1" src="img/about01.jpg" alt="" />
+                    <img class="rounded-2 animation-float1" src="\img\render\2.jpg" alt="" />
                 </div>
                 <div class="col-lg-3 col-md-6 mb-20">
-                    <img class="rounded-2 animation-float2" src="img/about02.jpg" alt="" />
+                    <img class="rounded-2 animation-float2" src="\img\render\5.jpg" alt="" />
                 </div>
             </div>
         </div>

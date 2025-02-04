@@ -177,6 +177,18 @@
             </div>
         </div>
     </section>
+    <section class="amenities section-padding bg-lightbrown">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-center">
+                    <div class="image-container">
+                        <img src="\img\render\6.jpg" alt="Estate Render" class="img-fluid"
+                            style="width: 100%; height: auto; max-width: 1400px; border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Land for Sale -->
     <section class="rooms1 section-padding">
