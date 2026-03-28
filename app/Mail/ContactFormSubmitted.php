@@ -2,7 +2,6 @@
 
 namespace App\Mail;
 
-use App\Models\ContactForm;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -11,17 +10,17 @@ class ContactFormSubmitted extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $contactForm;
+    public array $data;
 
-    public function __construct(ContactForm $contactForm)
+    public function __construct(array $data)
     {
-        $this->contactForm = $contactForm;
+        $this->data = $data;
     }
 
     public function build()
     {
-        return $this->subject('New Contact Form Submission')
-            ->view('emails.contact_form_submitted')
-            ->with('contactForm', $this->contactForm);
+        return $this->subject('New Contact Form Submission - Ciala Residences')
+            ->markdown('emails.contact_form_submitted')
+            ->with('data', $this->data);
     }
 }

@@ -157,18 +157,40 @@
                                 </div>
                             </div>
                             <!-- Loading spinner -->
-                            <div id="loadingSpinner" style="display: none; text-align: center; margin-top: 15px;">
-                                <div class="spinner-border" role="status">
-                                    <span class="sr-only">Loading...</span>
-                                </div>
+                            <div id="loadingSpinner" style="display: none; text-align: center; margin-top: 18px;">
+                                <div class="cr-spinner"></div>
                             </div>
                             <!-- Success/Failure Messages -->
                             <div id="formMessage" style="display: none; margin-top: 15px;"></div>
                             <style>
-                                .spinner-border {
-                                    width: 3rem;
-                                    height: 3rem;
-                                    color: #007bff;
+                                .cr-spinner {
+                                    display: inline-block;
+                                    width: 36px;
+                                    height: 36px;
+                                    border: 3px solid rgba(218, 165, 32, 0.25);
+                                    border-top-color: #DAA520;
+                                    border-radius: 50%;
+                                    animation: cr-spin 0.75s linear infinite;
+                                }
+                                @keyframes cr-spin {
+                                    to { transform: rotate(360deg); }
+                                }
+                                .cr-msg {
+                                    padding: 12px 16px;
+                                    border-radius: 6px;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    letter-spacing: 0.3px;
+                                }
+                                .cr-msg.success {
+                                    background: #f0faf0;
+                                    color: #2e7d32;
+                                    border-left: 4px solid #4caf50;
+                                }
+                                .cr-msg.error {
+                                    background: #fff5f5;
+                                    color: #c62828;
+                                    border-left: 4px solid #ef5350;
                                 }
                             </style>
 
@@ -194,10 +216,10 @@
                                     data: formData,
                                     success: function(response) {
                                         $('#loadingSpinner').hide();
-                                        $('#formMessage').html(
-                                                '<p class="text-success">Message Sent successfully!</p>')
+                                        $('#formMessage')
+                                            .html('<div class="cr-msg success">&#10003; Your message has been sent! We\'ll be in touch shortly.</div>')
                                             .fadeIn();
-                                        $('#contactForm')[0].reset(); // Reset the form
+                                        $('#contactForm')[0].reset();
                                     },
                                     error: function(xhr) {
                                         $('#loadingSpinner').hide();
@@ -205,8 +227,9 @@
                                         if (xhr.responseJSON && xhr.responseJSON.errors) {
                                             errorMessage = Object.values(xhr.responseJSON.errors).join('<br>');
                                         }
-                                        $('#formMessage').html('<p class="text-danger">' + errorMessage +
-                                            '</p>').fadeIn();
+                                        $('#formMessage')
+                                            .html('<div class="cr-msg error">&#9888; ' + errorMessage + '</div>')
+                                            .fadeIn();
                                     }
                                 });
                             });
